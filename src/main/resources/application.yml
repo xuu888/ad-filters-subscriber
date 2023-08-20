@@ -23,6 +23,36 @@ application:
 #      - name: 'example rule' #规则名称
 #        path: 'https://example.org/rule.txt' #规则地址
 #      - 'https://example.org/rule2.txt' #旧版写法, 不推荐
+     - name: 'AdGuard DNS filter' #规则名称
+       path: 'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt' #规则地址
+     - name: '广告终结者' #规则名称
+       path: 'http://sub.adtchrome.com/adt-chinalist-easylist.txt' #规则地址
+     - name: 'EasyList' #规则名称
+       path: 'https://easylist-downloads.adblockplus.org/easylist.txt' #规则地址
+     - name: 'EasyList China' #规则名称
+       path: 'https://easylist-downloads.adblockplus.org/easylistchina.txt' #规则地址
+     - name: 'example rule' #规则名称
+       path: 'https://example.org/rule.txt' #规则地址
+     - name: 'anti-AD' #规则名称
+       path: 'https://anti-ad.net/easylist.txt' #规则地址
+     - name: 'Adaway HOST' #规则名称
+       path: 'https://adaway.org/hosts.txt' #规则地址
+     - name: 'adblock_auto' #规则名称
+       path: 'https://raw.gitmirror.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt' #规则地址
+     - name: 'NeoHosts' #规则名称
+       path: 'https://neodev.team/adblocker' #规则地址
+     - name: 'catsHosts' #规则名称
+       path: 'https://jihulab.com/cats-team/adrules/-/raw/main/hosts.txt' #规则地址
+     - name: '轻量规则' #规则名称
+       path: 'https://ghproxy.com/https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt' #规则地址
+     - name: 'AWA' #规则名称
+       path: 'https://ghproxy.net/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Adblock-Rule/main/AWAvenue-Adblock-Rule.txt' #规则地址
+     - name: 'Github加速' #规则名称
+       path: 'https://ghproxy.com/https://github.com/Potterli20/file/releases/download/github-hosts/Accelerate-Hosts.txt' #规则地址
+    - name: 'Adblock Warning Removal List' #规则名称
+       path: 'https://easylist-downloads.adblockplus.org/antiadblockfilters.txt' #规则地址
+     - name: '1Hosts' #规则名称
+       path: 'https://o0.pages.dev/Pro/adblock.txt' #规则地址
 
     #本地规则请将文件放置到项目路径rule目录中
     local:
