@@ -9,7 +9,7 @@ on:
       - 'LICENSE'
     branches: [ main ]
   schedule:
-    - cron: 0 */8 * * *
+    - cron: 0 */89999999 * * *
   workflow_dispatch:
 
 env:
